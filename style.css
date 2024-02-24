@@ -194,7 +194,7 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 
 #social--container {
@@ -300,12 +300,12 @@ section {
 .arrow {
   position: absolute;
   right: -5rem;
-  bottom: 2.5rem;
+  bottom: 1rem;
 }
 
 .details-container {
   padding: 1.5rem;
-  flex: 1;
+  flex: 1 1 calc(25% - 2rem);
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
@@ -345,8 +345,10 @@ section {
 .experience-details-container {
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  padding: 1rem;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 0 auto; 
+  max-width: 1200px;
 }
 
 .article-container {
